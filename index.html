@@ -11,16 +11,97 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">Usted no está visitando con un navegador <strong>antiguo</strong>. Para brindarle la mejor experiencia, por favor descargue un mejor navegador en este enlace: <a href="http://browsehappy.com/">¡descargar ahora un mejor navegador!</a></p>
         <![endif]-->
+        <header>
+            <div class="container slogan">
+                <h1>lapiz & papel</h1>
+                <p>La comunidad para compartir tus ideas...</p>
+            </div>
+            <nav id="main-navigation" class="container main-navigation">
+                <ul>
+                    <li class="active">
+                        <a href="#">Mis amigos</a>
+                    </li>
+                    <li>
+                        <a href="#">Mis proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#">Mis contribuciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="container main-content">
+            <div class="friend clearfix">
+                <div class="col col-2">
+                    <figure>
+                      <img class="picture" src="img/friends/friend-01.jpg" alt="Natalia Villafuentes" width="228" height="228">
+                    </figure>
+                </div>
+                <div class="col col-8">
+                    <div class="block information">
+                        <a href="#">Natalia Villafuentes</a>
+                        <div class="actions">
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-comments"></i></a>
+                            <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                        <div class="separator"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium odit dolores dolorum officiis et ipsa doloribus fuga non repellendus ratione maiores sunt id, hic impedit voluptatem ad, laboriosam eveniet quod!</p>
+                    </div>
+                </div>
+            </div><!-- /.friend -->
+            <div class="friend clearfix">
+                <div class="col col-2">
+                    <figure>
+                      <img class="picture" src="img/friends/friend-02.jpg" alt="César Robles" width="228" height="228">
+                    </figure>
+                </div>
+                <div class="col col-8">
+                    <div class="block information">
+                        <a href="#">César Robles</a>
+                        <div class="actions">
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-comments"></i></a>
+                            <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                        <div class="separator"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium odit dolores dolorum officiis et ipsa doloribus fuga non repellendus ratione maiores sunt id, hic impedit voluptatem ad, laboriosam eveniet quod!</p>
+                    </div>
+                </div>
+            </div><!-- /.friend -->
+        </section>
+        <aside class="container related-content">
+            <div class="block">
+                <span>Mis notas</span>
+                <div class="separator"></div>
+                <div class="alert">
+                    <div class="actions"><a href="#"><i class="fa fa-pencil"></i></a></div>
+                    <p>Ipsam soluta placeat quasi sequi excepturi adipisci delectus cupiditate assumenda earum. Lorem ipsum dolor sit <p>Amet, consectetur adipisicing elit. Nulla, asperiores. Pariatur repudiandae commodi libero excepturi dicta vitae sunt aut est, consequatur architecto impedit dolore adipisci, possimus, fuga. Beatae, cumque. Cum?</p>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+                </div>
+                <div class="alert">
+                    <div class="actions"><a href="#"><i class="fa fa-pencil"></i></a></div>
+                   <p>Ipsam soluta placeat quasi sequi excepturi adipisci delectus cupiditate assumenda earum.</p>
+                   <p>Donec rhoncus magna ut ornare eleifend. Aliquam suscipit, lectus eu euismod pellentesque, purus leo lobortis justo, eget commodo metus turpis vitae augue.</p>
+                </div>
+                <div class="alert">
+                    <div class="actions"><a href="#"><i class="fa fa-pencil"></i></a></div>
+                    <p>Consequatur architecto impedit dolore adipisci, psam soluta placeat quasi sequi excepturi adipisci delectus cupiditate assumenda earum.</p>
+                </div>
+            </div>
+        </section>
+        <footer class="container main-footer">
+            Creado por <a href="https://twitter.com/webtrainingmx" target="_blank">@webtrainingmx</a> para toda la comunidad.
+        </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
