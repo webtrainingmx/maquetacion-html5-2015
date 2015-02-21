@@ -11,12 +11,14 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
-            <p class="browserupgrade">Usted no está visitando desde un navegador antigura, por favor obtenga un mejor navegador: <a href="http://browsehappy.com/">Descargar</a></p>
+            <p class="browserupgrade">Usted no está visitando desde un navegador antigua, por favor obtenga un mejor navegador: <a href="http://browsehappy.com/">Descargar</a></p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
@@ -25,28 +27,77 @@
                 <h1>Lapiz & papel</h1>
                 <p>La comunidad para compartir tus ideas...</p>
             </div>
-            <nav class="main-navigation">
+            <nav class="container main-navigation">
                 <ul>
-                    <li><a href="#">Mis amigos</a></li>
+                    <li class="active"><a href="#">Mis amigos</a></li>
                     <li><a href="#">Mis proyectos</a></li>
                     <li><a href="#">Mis contribuciones</a></li>
                 </ul>
             </nav>
         </header>
-        <section>
-            <div class="friend">
-                <figure>
-                    <img src="img/friends/friend-01.jpg" alt="Natalia Villafuentes">
-                </figure>
-                <div class="information">
-                    <a href="#">Natalia Villafuentes</a>
-                    <div class="actions">
-                        
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam iste deserunt harum saepe, repellendus laborum. Hic iste consequuntur voluptas reiciendis excepturi libero deleniti accusantium ab eligendi, sapiente accusamus magnam!</p>
+        <section class="container main-content">
+            <article class="friend clearfix">
+                <div class="col col-2">
+                    <figure>
+                        <img class="picture" src="img/friends/friend-01.jpg" alt="Natalia Villafuentes">
+                    </figure>
                 </div>
+                <div class="col col-8">
+                    <div class="block information">
+                        <a href="#">Natalia Villafuentes</a>
+                        <div class="actions">
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-comments"></i></a>
+                            <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                        <div class="separator"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam iste deserunt harum saepe, repellendus laborum. Hic iste consequuntur voluptas reiciendis excepturi libero deleniti accusantium ab eligendi, sapiente accusamus magnam!</p>
+                    </div>
+                </div>
+            </article>
+            <article class="friend clearfix">
+                <div class="col col-2">
+                    <figure>
+                        <img class="picture" src="img/friends/friend-02.jpg" alt="César Robles">
+                    </figure>
+                </div>
+                <div class="col col-8">
+                    <div class="block information">
+                        <a href="#">César Robles</a>
+                        <div class="actions">
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-comments"></i></a>
+                            <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                        <div class="separator"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam iste deserunt harum saepe, repellendus laborum. Hic iste consequuntur voluptas reiciendis excepturi libero deleniti accusantium ab eligendi, sapiente accusamus magnam!</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="container related-content">
+            <div class="block">
+               <span>Mis notas</span>
+               <div class="separator"></div>
+               <article class="alert">
+                   <div class="actions">
+                       
+                   </div>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quos, repellat, iusto voluptates, omnis eligendi, blanditiis consectetur rerum rem optio dolorem! Pariatur a veritatis odit, perferendis quisquam beatae quam quibusdam?</p>
+               </article>
+               <article class="alert">
+                   <div class="actions">
+                       
+                   </div>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quos, repellat, iusto voluptates, omnis eligendi, blanditiis consectetur rerum rem optio dolorem! Pariatur a veritatis odit, perferendis quisquam beatae quam quibusdam?</p>
+               </article>
+                
             </div>
         </section>
+        <footer class="container main-footer">
+            <p>Creado por <a href="#">@webtrainingmx</a> para toda la comunidad!</p>
+        </footer>
+        
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
